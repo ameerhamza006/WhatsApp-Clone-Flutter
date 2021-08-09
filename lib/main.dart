@@ -32,15 +32,15 @@ class _WhatsappState extends State<Whatsapp> {
   // adding a list of image URL simulate the avatar picture
   List<String> imageUrl = [
 
-    "https://i.pinimg.com/originals/2e/2f/ac/2e2fac9d4a392456e511345021592dd2.jpg",
-    "https://randomuser.me/api/portraits/men/86.jpg",
-    "https://randomuser.me/api/portraits/women/80.jpg",
-    "https://randomuser.me/api/portraits/men/43.jpg",
-    "https://randomuser.me/api/portraits/women/49.jpg",
-    "https://randomuser.me/api/portraits/women/45.jpg",
-    "https://randomuser.me/api/portraits/women/0.jpg",
-    "https://randomuser.me/api/portraits/women/1.jpg",
-    "https://randomuser.me/api/portraits/men/0.jpg"
+    "assets/img1.jpg",
+    "assets/img2.jpg",
+    "assets/img3.jpg",
+    "assets/img4.jpg",
+    "assets/img5.jpg",
+    "assets/img6.jpg",
+    "assets/img7.jpg",
+    "assets/img8.jpg",
+    "assets/img9.jpg"
 
   ];
 
@@ -84,7 +84,7 @@ class _WhatsappState extends State<Whatsapp> {
                   storyButton(imageUrl[4], "Zahid"),
                   storyButton(imageUrl[5], "jahangir"),
                   storyButton(imageUrl[6], "Ali"),
-                  storyButton(imageUrl[7], "Aqib"),
+                  storyButton(imageUrl[7], "Sir Aqib"),
                   storyButton(imageUrl[8], "Hamza"),
 
                 ],
@@ -111,7 +111,7 @@ class _WhatsappState extends State<Whatsapp> {
                     chatTile(imageUrl[4], "Zahid", "kab jana hai?", "Yesterday", false),
                     chatTile(imageUrl[5], "Jahangir", "Aptech jay ga aj?", "San", true),
                     chatTile(imageUrl[6], "Ali", "a rha hu", "San", true),
-                    chatTile(imageUrl[7], "Aqib", "Sir aj class Hogi?", "Thu", true),
+                    chatTile(imageUrl[7], "Sir Aqib", "Sir aj class Hogi?", "Thu", true),
                     chatTile(imageUrl[8], "Hamza", "okay", "Thu", true),
                     chatTile(imageUrl[0], "Mubashir", "kiya huwa", "Thu", true),
                     chatTile(imageUrl[2], "Auther", "kha ho j kl", "Thu", true),

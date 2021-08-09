@@ -10,10 +10,14 @@ Widget chatTile(String imgUrl, String userName, String msg, String date, bool se
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          CircleAvatar(backgroundImage: NetworkImage(imgUrl),
+          CircleAvatar(
             radius: 28.0,
-
+           backgroundImage: AssetImage(imgUrl),
           ),
+
+
+
+
           SizedBox(
             width: 8.0,
           ),

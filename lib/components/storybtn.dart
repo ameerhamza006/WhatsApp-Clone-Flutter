@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 
 Widget storyButton(String imgUrl, String userName){
     return Padding(
-      padding: const EdgeInsets.only(right: 19.0),
+      padding: const EdgeInsets.all(8.0),
       child: Column(
         children: [
           CircleAvatar(
-            backgroundImage: NetworkImage(imgUrl),
             radius: 26.0,
+            backgroundImage: imgUrl.isNotEmpty ?  AssetImage(imgUrl) : null,
           ),
+
           SizedBox(
             height: 5.0,
           ),
